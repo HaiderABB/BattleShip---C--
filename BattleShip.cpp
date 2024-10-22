@@ -141,23 +141,23 @@ int main()
     {
       cout << "Player " << 1 << " Enter the ROW for ship " << i - 1 << " of size " << i << " ";
       cin >> row;
-      while (row < 0 || row > 5)
+      while (row < 0 || row >= 5)
       {
-        cout << "Enter positive value " << endl;
+        cout << "Enter value between 0-5" << endl;
         cin >> row;
       }
       cout << "Enter the COL for ship " << i - 1 << " of size " << i << " ";
       cin >> col;
-      while (col < 0 || col > 5)
+      while (col < 0 || col >= 5)
       {
-        cout << "Enter positive value " << endl;
+        cout << "Enter value between 0-5" << endl;
         cin >> col;
       }
       cout << "Enter  the direction of ship " << i - 1 << " (0 for horizontal, 1 for vertical): ";
       cin >> pos;
       while (pos < 0 || pos > 1)
       {
-        cout << "Enter positive value  " << endl;
+        cout << "Enter value between 0-5" << endl;
         cin >> pos;
       }
 
@@ -167,16 +167,16 @@ int main()
         cout << "----------------------------------" << endl;
         cout << "Enter the ROW for ship " << i - 1 << " of size " << i << " ";
         cin >> row;
-        while (row < 0 || row > 5)
+        while (row < 0 || row >= 5)
         {
-          cout << "Enter positive value" << endl;
+          cout << "Enter value between 0-5" << endl;
           cin >> row;
         }
         cout << "Enter the COL for ship " << i - 1 << " of size " << i;
         cin >> col;
-        while (col < 0 || col > 5)
+        while (col < 0 || col >= 5)
         {
-          cout << "Enter positive value " << endl;
+          cout << "Enter value between 0-5" << endl;
           cin >> col;
         }
         cout << "Enter the direction of ship " << i - 1 << " (0 for horizontal, 1 for vertical): ";
@@ -294,23 +294,23 @@ int main()
       cout << "----------------------------------" << endl;
       cout << "Player " << 2 << " Enter the ROW for ship " << i - 1 << " of size " << i << " ";
       cin >> row;
-      while (row < 0 || row > 5)
+      while (row < 0 || row >= 5)
       {
-        cout << "Enter positive value" << endl;
+        cout << "Enter value between 0-5" << endl;
         cin >> row;
       }
       cout << "Enter the COL for ship " << i - 1 << " of size " << i << " ";
       cin >> col;
-      while (col < 0 || col > 5)
+      while (col < 0 || col >= 5)
       {
-        cout << "Enter positive value" << endl;
+        cout << "Enter value between 0-5" << endl;
         cin >> col;
       }
       cout << "Enter  the direction of ship " << i - 1 << " (0 for horizontal, 1 for vertical): ";
       cin >> pos;
       while (pos < 0 || pos > 1)
       {
-        cout << "Enter positive value  " << endl;
+        cout << "Enter Enter value 0 or 1" << endl;
         cin >> pos;
       }
 
@@ -320,23 +320,23 @@ int main()
         cout << "----------------------------------" << endl;
         cout << "Enter the ROW for ship " << i - 1 << " of size " << i << " ";
         cin >> row;
-        while (row < 0 || row > 5)
+        while (row < 0 || row >= 5)
         {
-          cout << "Enter positive value " << endl;
+          cout << "Enter value between 0-5" << endl;
           cin >> row;
         }
         cout << "Enter the COL for ship " << i - 1 << " of size " << i;
         cin >> col;
-        while (col < 0 || col > 5)
+        while (col < 0 || col >= 5)
         {
-          cout << "Enter positive value" << endl;
+          cout << "Enter value between 0-5" << endl;
           cin >> col;
         }
         cout << "Enter the direction of ship " << i - 1 << " (0 for horizontal, 1 for vertical): ";
         cin >> pos;
         while (pos < 0 || pos > 1)
         {
-          cout << "Enter positive value " << endl;
+          cout << "Enter value 0 or 1" << endl;
           cin >> pos;
         }
       }
